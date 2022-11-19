@@ -1,0 +1,22 @@
+/*подключаем локальные шрифты*/
+@font-face {
+    font-family: Euclid Circular A;
+    src: url('../fonts/Euclid Circular A Regular.ttf');
+}
+
+
+/* Указываем box sizing */
+* {
+    box-sizing: border-box;
+    font-family: "Euclid Circular A", sans-serif;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
